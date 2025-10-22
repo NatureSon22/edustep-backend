@@ -1,6 +1,4 @@
-import mongoose from "mongoose";
-
-const { Schema, model } = mongoose;
+import { model, Schema } from "mongoose";
 
 const accountSchema = new Schema(
   {
@@ -36,7 +34,7 @@ const accountSchema = new Schema(
     },
   },
   {
-    timestamps: true, 
+    timestamps: true,
   }
 );
 
